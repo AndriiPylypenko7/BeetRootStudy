@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MuseoSansRounded-100";
+  src: local("MuseoSansRounded-100"),
+    url("https://nomail.com.ua/files/woff/24b76c23a1f336d9579b7f3447f9812c.woff")
+      format("woff");
+}
+
+.page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/backround.png);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  flex-basis: 686px;
+  height: 391px;
+  background-color: #111a28;
+  border-radius: 15px;
+}
+
+.logo__item {
+  padding: 24px;
+}
+
+.list {
+  display: flex;
+}
+
+.left-side {
+  flex-basis: 444px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-side__image-wrapper {
+  flex-basis: 250px;
+}
+
+.radio__button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.radio__checkmark {
+  width: 12px;
+  height: 12px;
+  display: none;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.radio__input {
+  display: none;
+}
+
+.radio__input:checked + .radio__checkmark {
+  display: inline-block;
+  border: 2px solid gray;
+}
+
+.black {
+  background-color: #1f273f;
+}
+.white {
+  background-color: #ffffff;
+}
+.red {
+  background-color: #ed3333;
+}
+.blue {
+  background-color: #29e3ea;
+}
+.form {
+  flex-basis: 286px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: stretch;
+}
+
+.form__title {
+  color: #e1e1e1;
+  font-family: "MuseoSansRounded-100";
+  font-size: 24px;
+}
+
+.form__subtitle {
+  color: #e1e1e1;
+  font-family: "MuseoSansRounded-100";
+  opacity: 0.54;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.rating {
+  margin: 15px 0;
+}
+
+.form__select {
+  display: flex;
+}
+
+.select__item {
+  padding: 11px 15px;
+  background-color: #111a28;
+  color: #e1e1e1;
+  opacity: 0.54;
+}
+
+.form__label {
+  margin-right: 2px;
+  flex-basis: 70px;
+}
+
+.button__input {
+  color: white;
+  font-family: "MuseoSansRounded-100";
+  background-color: #4c525a;
+  width: 184px;
+  height: 40px;
+  opacity: 0.26;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}

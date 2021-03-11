@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <div class="form-wrapper">
+        <div class="nav">
+          <ul class="nav__ul">
+            <li class="nav__item">
+              <a href="#" class="nav__item-link checked">Sign in</a>
+            </li>
+            <li class="nav__item">
+              <a href="./joinus.html" class="nav__item-link">Join us</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form__field" action="#" method="GET">
+          <div class="form__username-wrapper">
+            <label class="form__label"
+              >Username <br /><input
+                class="form__input"
+                type="text"
+                name="username"
+                minlength="5"
+                maxlength="15"
+                required
+            /></label>
+          </div>
+          <div class="form__password-wrapper">
+            <label class="form__label"
+              >Password <br /><input
+                class="form__input"
+                type="password"
+                name="password"
+                minlength="5"
+                maxlength="20"
+                required
+            /></label>
+          </div>
+          <div class="form__checkbox-wrapper">
+            <label class="checkbox__label"
+              ><input
+                class="checkbox__input"
+                type="checkbox"
+                name="keep"
+                checked
+              />
+              <span class="checkbox__custom"></span>
+              Keep me signed in</label
+            >
+          </div>
+          <div class="submit__wrapper">
+            <button class="submit__button" type="submit">Sign in</button>
+          </div>
+        </form>
+        <div class="footer">
+          <ul class="footer__ul">
+            <li class="footer__item">
+              <a href="#" class="footer__item-link">Forgot password</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__item-link">Create an account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #990909;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.link1 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  display: block;
+  width: 700px;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  text-align: center;
+  color: gainsboro;
+  font-size: 25px;
+  text-decoration: none;
+}
+ul p {
+  color: white;
+  font-size: 30px;
+}
+ul img {
+  width: 300px;
+}
+.ulsection {
+  text-align: center;
+  color: #efefe9;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+.alldiv {
+  width: 100%;
+  height: 400px;
+  display: inline-flex;
+}
+
+.divleft {
+  padding-left: 10px;
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: #7d0909;
+}
+a {
+  color: #e95b11;
+}
+.divcenter {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  width: 75%;
+  height: 100%;
+}
+.divright {
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+  background-color: #e3dddd;
+  line-height: 25px;
+}
+.sideh2 {
+  text-align: center;
+  background-color: #bdbdbd;
+}
+hr {
+  margin-left: 30%;
+  width: 70px;
+}
+footer {
+  background-color: #e95b11;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+}

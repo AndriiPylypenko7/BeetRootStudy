@@ -1,0 +1,89 @@
+* {
+  margin: 0em;
+  padding: 0em;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: local("ProximaNova-Regular"),
+    url("https://nomail.com.ua/files/woff/09b9070a79dc9334ad24841d9234dc7c.woff")
+      format("woff");
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ulnav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 1100px;
+}
+li {
+  width: 250px;
+  margin-top: 55px;
+  text-align: center;
+}
+div {
+  border-radius: 50%;
+  border: 3px solid #1275b9;
+
+  width: 65px;
+  height: 65px;
+  margin-left: 85px;
+  background-color: #1275b9;
+  fill: white;
+}
+
+.upper {
+  /* Style for "Responsive" */
+  height: 10px;
+  color: #000000;
+  font-family: "ProximaNova-Regular";
+  font-size: 14px;
+  font-weight: bolder;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  /* Text style for "Responsive" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+p + p {
+  /* Style for "Etiam sagi" */
+  width: 220px;
+  height: 52px;
+  color: #9d9d9d;
+  font-family: "ProximaNova-Regular";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "E, tiam sa" */
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+  margin-top: 32px;
+}
+
+.lefticon,
+.centericon,
+.righticon {
+  position: relative;
+  top: 26%;
+}
+
+.round:hover {
+  background-color: white;
+  fill: #1275b9;
+  transition: 500ms;
+}

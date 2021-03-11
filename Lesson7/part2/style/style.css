@@ -1,0 +1,127 @@
+@import url("weather-icons-wind.css");
+@import url("weather-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+  background-color: #3399cc;
+  border: 20px solid #2b81ac;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  margin: 15px 0 0 15%;
+}
+
+ul {
+  border: 3px solid white;
+  font-size: 0;
+  margin: 40px 15% 0 15%;
+  width: 70%;
+  list-style: none;
+}
+li {
+  width: 25%;
+  height: 130px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border: 3px solid white;
+  border-collapse: collapse;
+  display: inline-block;
+  text-align: center;
+}
+
+li:nth-child(1),
+li:nth-child(9) {
+  width: 50%;
+}
+
+li:last-child {
+  width: 100%;
+}
+
+h2 {
+  padding-top: 25px;
+  font-weight: 300;
+}
+
+span {
+  font-size: 30px;
+  opacity: 0.6;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px 0 0 15%;
+}
+.lisbon {
+  background-color: #3399cc;
+}
+
+.paris {
+  background-color: #33cccc;
+}
+
+.belgrade {
+  background-color: #996699;
+}
+
+.moscow {
+  background-color: #c24747;
+}
+
+.telaviv {
+  background-color: #e2674a;
+}
+
+.cair {
+  background-color: #ffcc66;
+}
+
+.newyork {
+  background-color: #99cc99;
+}
+
+.newdehli {
+  background-color: #669999;
+}
+
+.sanfrancisco {
+  background-color: #cc6699;
+}
+
+.tokyo {
+  background-color: #339966;
+}
+
+.sydney {
+  background-color: #666699;
+}
+
+main .cities:hover {
+  background-color: white;
+  opacity: 0.8;
+}
+
+li:not(:hover) {
+  opacity: 0.8;
+}

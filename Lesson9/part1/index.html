@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cahee</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="navigation">
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">home</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">about</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">services</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">gallery</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">blog</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">contact</a>
+        </div>
+      </nav>
+      <h1 class="header__title">Cahee</h1>
+    </header>
+    <main class="main">
+      <section class="section-fresh">
+        <div class="section-fresh__wrapper">
+          <h2 class="section-fresh__title">Fresh Life</h2>
+          <p class="section-fresh__text">
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+          <a
+            class="section-fresh__link"
+            href="https://beetroot.academy/"
+            target="_blank"
+            >GET FREE NOW</a
+          >
+        </div>
+      </section>
+      <section class="section-aboutus">
+        <div class="section-aboutus__wrapper">
+          <h2 class="section-aboutus__title">About Us</h2>
+          <p class="section-aboutus__text">
+            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum.
+          </p>
+          <p class="section-aboutus__text">
+            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+            sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore.
+          </p>
+        </div>
+      </section>
+      <section class="blog">
+        <h2 class="blog__title">blog</h2>
+        <p class="blog__text">
+          Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit.
+        </p>
+        <div class="blog__calendar">
+          <div class="calendar__item item__left">
+            <span class="calendar__date">20 nov</span>
+            <div class="calendar__bottom-wrapper">
+              <h3 class="bottom-wrapper__title">
+                Green Smoothies: Too Much of a Good Thing?
+              </h3>
+              <br />
+              <p class="bottom-wrapper__text">By Auskteez - 2 hours ago</p>
+            </div>
+          </div>
+          <div class="calendar__item item__center">
+            <span class="calendar__date">14 nov</span>
+            <div class="calendar__bottom-wrapper">
+              <h3 class="bottom-wrapper__title">
+                Growing Food and a “Thirst” for Innovation
+              </h3>
+              <br />
+              <p class="bottom-wrapper__text">By Auskteez - 3 hours ago</p>
+            </div>
+          </div>
+          <div class="calendar__item item__right">
+            <span class="calendar__date">10 nov</span>
+            <div class="calendar__bottom-wrapper">
+              <h3 class="bottom-wrapper__title">
+                Pesticides & Food: What You Need to Know
+              </h3>
+              <br />
+              <p class="bottom-wrapper__text">By Auskteez - 6 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <button class="blog__button">view more</button>
+      </section>
+      <section class="contact">
+        <h2 class="contact__title">contact</h2>
+        <h4 class="contact__subtitle">
+          For new projects, ideas, business or anything you'd like to discuss,
+          contact with me!
+        </h4>
+        <div class="contact__main-wrapper">
+          <div class="main__form-wrapper">
+            <form class="main__form" action="#" method="GET">
+              <label class="form__label"
+                ><input
+                  class="form__name form-input"
+                  type="text"
+                  name="username"
+                  minlength="4"
+                  placeholder="Your name..."
+                  required /></label
+              ><label class="form__label"
+                ><input
+                  class="form__email form-input"
+                  type="email"
+                  name="email"
+                  placeholder="Your email..."
+                  required /></label
+              ><label class="form__label"
+                ><input
+                  class="form__tel form-input"
+                  type="tel"
+                  maxlength="10"
+                  minlength="10"
+                  pattern="^[ 0-9]+$"
+                  name="tel-number"
+                  placeholder="Your phone number..."
+                  required /></label
+              ><label class="form__label">
+                <textarea
+                  class="form__text form-input"
+                  name="message"
+                  cols="30"
+                  rows="5"
+                  placeholder="Your message..."
+                  required
+                ></textarea>
+              </label>
+            </form>
+          </div>
+          <div class="main__contacts">
+            <h3 class="main-contacts__title">adress</h3>
+            <p class="main-contacts__subtitle">
+              123 City name, Street, City, Country
+            </p>
+            <h3 class="main-contacts__title">email</h3>
+            <p class="main-contacts__subtitle">cahee@domain.com</p>
+            <h3 class="main-contacts__title">phone</h3>
+            <p class="main-contacts__subtitle">+012 345 6789</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__left">&copy; 2015 Company. All right reserved</div>
+      <div class="footer__cahee">Cahee</div>
+      <div class="footer__right">
+        Made with <span class="footer__love">love</span> by Auskeez
+      </div>
+    </footer>
+    <!-- <a class="scroll" href="#top"
+      ><img src="./img/scroll.png" alt="scroll"
+    /></a> -->
+  </body>
+</html>

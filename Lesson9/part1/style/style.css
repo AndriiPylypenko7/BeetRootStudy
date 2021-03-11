@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: local("Pacifico-Regular"),
+    url("https://nomail.com.ua/files/woff/9b79bde19b07cbc80daeff1aaa085b5c.woff")
+      format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+/*Header section*/
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 40px;
+}
+.header__title {
+  margin: -40px 0 0 40px;
+  font-family: "Pacifico-Regular";
+  font-size: 55px;
+}
+.navigation {
+  flex-grow: 0.15;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation__item {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navigation__link {
+  text-decoration: none;
+  color: black;
+}
+.navigation__link:hover {
+  border-top: 3px solid #ff6033;
+  transition: 300ms;
+  text-shadow: 0 0 15px grey;
+}
+/*Fresh section*/
+.section-fresh {
+  max-width: 100vw;
+  height: 1000px;
+  background-image: url(../img/first.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.section-fresh__wrapper {
+  margin-left: 10%;
+  display: flex;
+  flex-basis: 250px;
+  flex-wrap: wrap;
+}
+.section-fresh__title {
+  font-size: 60px;
+  font-weight: 900;
+}
+.section-fresh__text {
+  margin: 30px 0;
+  width: 500px;
+  color: #262626;
+  font-size: 17px;
+  font-weight: 400;
+}
+.section-fresh__link {
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: #ff6033;
+  box-shadow: 2px 2px 3px grey;
+  padding: 20px 25px;
+}
+/*About Us section*/
+.section-aboutus {
+  max-width: 100vw;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../img/second.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-aboutus__wrapper {
+  margin-right: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 500px;
+  align-items: center;
+}
+.section-aboutus__title {
+  font-weight: 900;
+  font-size: 90px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.section-aboutus__text {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 17px;
+  padding-top: 20px;
+}
+/*Blog section*/
+.blog {
+  max-width: 100vw;
+  height: 1000px;
+  background-color: #b07cf7;
+}
+.blog__title {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 90px;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+.blog__text {
+  text-align: justify;
+  text-align-last: justify;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 25px;
+  width: 563px;
+  margin: 40px auto;
+}
+.blog__calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar__item {
+  flex-basis: 370px;
+  height: 310px;
+  box-shadow: 0 0 15px gray;
+  transition: 2s;
+  position: relative;
+  margin: 0 30px;
+}
+.calendar__item:hover {
+  transform: rotate(360deg) scale(1.3);
+  z-index: 1;
+}
+.item__left {
+  background-image: linear-gradient(0deg, #000 0, transparent 50%),
+    url(../img/blogleft.png);
+}
+.item__center {
+  background-image: linear-gradient(0deg, #000 0, transparent 50%),
+    url(../img/blogcenter.png);
+}
+.item__right {
+  background-image: linear-gradient(0deg, #000 0, transparent 50%),
+    url(../img/blogright.png);
+}
+.calendar__date {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: block;
+  border: 1px solid #262626;
+  height: 60px;
+  width: 60px;
+  background-color: #262626;
+  opacity: 0.7;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.calendar__bottom-wrapper {
+  max-width: 310px;
+  position: absolute;
+  left: 20px;
+  bottom: 23px;
+}
+.bottom-wrapper__title {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.bottom-wrapper__text {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.blog__button {
+  display: block;
+  width: 200px;
+  height: 55px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #f72b3b;
+  margin: 50px auto;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+/*Contact section*/
+.contact {
+  max-width: 100vw;
+  height: 1000px;
+  background-image: url(../img/Contactsection.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__title {
+  color: #262626;
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+.contact__subtitle {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  width: 370px;
+  text-align: center;
+  margin: 45px auto;
+}
+.contact__main-wrapper {
+  width: 987px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 445px;
+}
+.form-input {
+  display: block;
+  width: 500px;
+  line-height: 50px;
+  background-color: #00c4c4;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  transition: 1s;
+  border-left: 5px solid transparent;
+}
+.form-input::placeholder {
+  color: #ffffff;
+  font-weight: 300;
+}
+.form-input:focus {
+  outline: none;
+  border-left: 5px solid #355b82;
+}
+.form-input:not(:focus) {
+  opacity: 0.6;
+}
+.form-input:invalid:focus {
+  background-color: salmon;
+}
+.main-contacts__title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-contacts__subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/*Footer*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 120px;
+  opacity: 0.6;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+.footer__left {
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer__cahee {
+  font-family: "Pacifico-Regular";
+  font-size: 30px;
+}
+.footer__right {
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer__love {
+  color: crimson;
+  font-weight: 900;
+}
+/*Scroll button
+.scroll {
+  position: fixed;
+  bottom: 0;
+  left: 35%;
+  align-self: flex-end;
+  margin: 0 0 30px 15%;
+}*/

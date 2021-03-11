@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Miso-Bold";
+  src: local("Miso-Bold"),
+    url("https://nomail.com.ua/files/woff/5f4170aeb98cf7d22524bbdccf50fb73.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: local("Lato-Light"),
+    url("https://nomail.com.ua/files/woff/c9064bf904221c68cbdaf2b237b18cb2.woff")
+      format("woff");
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  background-color: #fdde7e;
+  box-shadow: 0 0 15px gray;
+}
+
+ul {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex-basis: 30%;
+  height: 441px;
+  background-color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Miso-Bold";
+  font-size: 70px;
+  color: #02995b;
+  text-align: center;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+}
+
+div {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  margin: 30px 0 10px 0;
+  text-transform: capitalize;
+  font-family: "Miso-Bold";
+  font-weight: lighter;
+  font-size: 56px;
+  text-align: center;
+}
+
+p {
+  font-family: "Lato-Light";
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+
+li:hover {
+  height: 500px;
+  transition: 300ms;
+  padding: 28px 0 30px 0;
+}

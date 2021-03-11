@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <section class="logo">
+        <img class="logo__item" src="./img/logo.png" alt="NikeLogo" />
+      </section>
+      <section class="list">
+        <div class="left-side">
+          <div class="left-side__image-wrapper">
+            <img
+              class="left-side__image"
+              src="./img/Nike-SB-Stefan-Janoski-Max.png"
+              alt="Nike"
+            />
+          </div>
+          <div class="left-side__radio">
+            <label class="radio__button black"
+              ><input
+                class="radio__input"
+                type="radio"
+                name="color"
+                checked /><span class="radio__checkmark black"></span
+            ></label>
+            <label class="radio__button white"
+              ><input class="radio__input" type="radio" name="color" /><span
+                class="radio__checkmark white"
+              ></span
+            ></label>
+            <label class="radio__button red"
+              ><input class="radio__input" type="radio" name="color" /><span
+                class="radio__checkmark red"
+              ></span
+            ></label>
+            <label class="radio__button blue"
+              ><input class="radio__input" type="radio" name="color" /><span
+                class="radio__checkmark blue"
+              ></span
+            ></label>
+          </div>
+        </div>
+        <div class="form">
+          <h1 class="form__title">
+            Nike SB Stefan <br />
+            Janovski Max
+          </h1>
+          <p class="form__subtitle">Unisex Skateboarding Shoe</p>
+          <div class="rating">
+            <img src="./img/rating.png" alt="" />
+          </div>
+          <div class="form__select">
+            <label class="form__label"
+              ><select class="select__item">
+                <option hidden disabled selected>Size</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+              </select></label
+            >
+            <label class="form__label"
+              ><select class="select__item">
+                <option hidden disabled selected>Qty</option>
+                <option value="poor">Poor</option>
+                <option value="medium">Medium</option>
+                <option value="good">Good</option>
+              </select></label
+            >
+          </div>
+          <div class="form__button">
+            <button class="button__input" type="submit">Add to cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
