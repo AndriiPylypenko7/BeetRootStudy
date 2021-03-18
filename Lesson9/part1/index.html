@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cahee</title>
+    <link rel="stylesheet" href="./style/Iconfont.css" />
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body class="body">
+    <!-- Header section -->
     <header class="header">
+      <h1 class="header__title">Cahee</h1>
       <nav class="navigation">
         <div class="navigation__item">
-          <a class="navigation__link" href="#">home</a>
-        </div>
-        <div class="navigation__item">
-          <a class="navigation__link" href="#">about</a>
-        </div>
-        <div class="navigation__item">
-          <a class="navigation__link" href="#">services</a>
-        </div>
-        <div class="navigation__item">
-          <a class="navigation__link" href="#">gallery</a>
+          <a class="navigation__link" href="#">contact</a>
         </div>
         <div class="navigation__item">
           <a class="navigation__link" href="#">blog</a>
         </div>
         <div class="navigation__item">
-          <a class="navigation__link" href="#">contact</a>
+          <a class="navigation__link" href="#">gallery</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">services</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">about</a>
+        </div>
+        <div class="navigation__item">
+          <a class="navigation__link" href="#">home</a>
         </div>
       </nav>
-      <h1 class="header__title">Cahee</h1>
     </header>
     <main class="main">
+      <!-- Section Fresh -->
       <section class="section-fresh">
         <div class="section-fresh__wrapper">
           <h2 class="section-fresh__title">Fresh Life</h2>
@@ -47,22 +50,125 @@
           >
         </div>
       </section>
-      <section class="section-aboutus">
-        <div class="section-aboutus__wrapper">
-          <h2 class="section-aboutus__title">About Us</h2>
-          <p class="section-aboutus__text">
+      <!-- Section About us -->
+      <section class="aboutus">
+        <div class="aboutus__logo-wrapper">
+          <img class="aboutus__logo" src="./img/img@1X.png" alt="cup" />
+        </div>
+        <div class="aboutus__text-wrapper">
+          <h2 class="aboutus__title">About Us</h2>
+          <p class="aboutus__text">
             Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum.
           </p>
-          <p class="section-aboutus__text">
+          <p class="aboutus__text">
             Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error
             sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
             eaque ipsa quae ab illo inventore.
           </p>
         </div>
       </section>
+      <!-- Section Services -->
+      <section class="services">
+        <h2 class="services__title">Our services</h2>
+        <div class="section-ul__wrapper">
+          <div class="ul__item">
+            <div class="ul-item__text">Online Shopping</div>
+
+            <div class="ul-item__icon __servicon1"></div>
+          </div>
+          <div class="ul__item">
+            <div class="ul-item__text">Quality Product</div>
+
+            <div class="ul-item__icon __servicon2"></div>
+          </div>
+          <div class="ul__item">
+            <div class="ul-item__text">
+              Domestic & International
+              <br />
+              Delivery
+            </div>
+
+            <div class="ul-item__icon __servicon3"></div>
+          </div>
+          <div class="ul__item">
+            <div class="ul-item__text">Well Organized</div>
+
+            <div class="ul-item__icon __servicon4"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Gallery -->
+      <section class="gallery">
+        <h2 class="gallery__title">Gallery</h2>
+        <p class="gallery__text">
+          Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="gallery__wrapper">
+          <div class="gallery__item item1">
+            <img
+              class="gallery__image"
+              src="./img/gallery1.png"
+              alt="gallery1"
+            />
+          </div>
+          <div class="gallery__item item-wrapper">
+            <div class="gallery__item-short item2">
+              <img
+                class="gallery__image"
+                src="./img/gallery2.png"
+                alt="gallery2"
+              />
+            </div>
+            <div class="gallery__item-short item3">
+              <img
+                class="gallery__image"
+                src="./img/gallery3.png"
+                alt="gallery3"
+              />
+            </div>
+          </div>
+          <div class="gallery__item item4">
+            <img
+              class="gallery__image"
+              src="./img/gallery4.png"
+              alt="gallery4"
+            />
+          </div>
+          <div class="gallery__item item5">
+            <img
+              class="gallery__image"
+              src="./img/gallery5.png"
+              alt="gallery5"
+            />
+          </div>
+        </div>
+        <div class="gallery__button-wrapper">
+          <button class="gallery__button">view more</button>
+        </div>
+      </section>
+      <!-- Section Subscribe -->
+      <section class="subscribe">
+        <h2 class="subscribe__title">subscribe to us</h2>
+        <p class="subscribe__text">
+          Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+        <form class="subscribe__form" action="#" method="GET">
+          <label class="subscribe__label"
+            ><input
+              class="subscribe__input"
+              type="email"
+              placeholder="Your email adress..."
+              required /></label
+          ><button class="subscribe__submit" type="submit">subscribe</button>
+        </form>
+      </section>
+      <!-- Section Blog -->
       <section class="blog">
         <h2 class="blog__title">blog</h2>
         <p class="blog__text">
@@ -102,8 +208,11 @@
             </div>
           </div>
         </div>
-        <button class="blog__button">view more</button>
+        <div class="blog__button-wrapper">
+          <button class="blog__button">view more</button>
+        </div>
       </section>
+      <!-- Section Contact -->
       <section class="contact">
         <h2 class="contact__title">contact</h2>
         <h4 class="contact__subtitle">
@@ -164,6 +273,7 @@
       </section>
     </main>
     <footer class="footer">
+      <!-- Section Footer -->
       <div class="footer__left">&copy; 2015 Company. All right reserved</div>
       <div class="footer__cahee">Cahee</div>
       <div class="footer__right">
