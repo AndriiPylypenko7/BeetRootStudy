@@ -12,30 +12,62 @@
     <!-- Header section -->
     <header class="header">
       <h1 class="header__title">Cahee</h1>
+      <!-- Main navigation -->
       <nav class="navigation">
         <div class="navigation__item">
-          <a class="navigation__link" href="#">contact</a>
+          <a class="navigation__link" href="#fresh">home</a>
         </div>
         <div class="navigation__item">
-          <a class="navigation__link" href="#">blog</a>
+          <a class="navigation__link" href="#about">about</a>
         </div>
         <div class="navigation__item">
-          <a class="navigation__link" href="#">gallery</a>
+          <a class="navigation__link" href="#services">services</a>
         </div>
         <div class="navigation__item">
-          <a class="navigation__link" href="#">services</a>
+          <a class="navigation__link" href="#gallery">gallery</a>
         </div>
         <div class="navigation__item">
-          <a class="navigation__link" href="#">about</a>
+          <a class="navigation__link" href="#blog">blog</a>
         </div>
         <div class="navigation__item">
-          <a class="navigation__link" href="#">home</a>
+          <a class="navigation__link" href="#contact">contact</a>
         </div>
+      </nav>
+      <!-- Burger navigation -->
+      <nav class="mob__navigation">
+        <input class="checkbox__input" type="checkbox" id="burgerchk" /><label
+          class="mob-navigation__title"
+          for="burgerchk"
+        >
+          <span class="burger burger__1"></span
+          ><span class="burger burger__2"></span
+          ><span class="burger burger__3"></span
+        ></label>
+        <ul class="mob-navigation__list">
+          <li class="mob-navigation__item">
+            <a class="mob-navigation__link" href="#fresh">home</a>
+          </li>
+          <li class="mob-navigation__item">
+            <a class="mob-navigation__link" href="#about">about</a>
+          </li>
+          <li class="mob-navigation__item">
+            <a class="mob-navigation__link" href="#services">services</a>
+          </li>
+          <li class="mob-navigation__item">
+            <a class="mob-navigation__link" href="#gallery">gallery</a>
+          </li>
+          <li class="mob-navigation__item">
+            <a class="mob-navigation__link" href="#blog">blog</a>
+          </li>
+          <li class="mob-navigation__item">
+            <a class="mob-navigation__link" href="#contact">contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="main">
       <!-- Section Fresh -->
-      <section class="section-fresh">
+      <section class="section-fresh" id="fresh">
         <div class="section-fresh__wrapper">
           <h2 class="section-fresh__title">Fresh Life</h2>
           <p class="section-fresh__text">
@@ -51,7 +83,7 @@
         </div>
       </section>
       <!-- Section About us -->
-      <section class="aboutus">
+      <section class="aboutus" id="about">
         <div class="aboutus__logo-wrapper">
           <img class="aboutus__logo" src="./img/img@1X.png" alt="cup" />
         </div>
@@ -71,37 +103,33 @@
         </div>
       </section>
       <!-- Section Services -->
-      <section class="services">
+      <section class="services" id="services">
         <h2 class="services__title">Our services</h2>
-        <div class="section-ul__wrapper">
-          <div class="ul__item">
-            <div class="ul-item__text">Online Shopping</div>
-
-            <div class="ul-item__icon __servicon1"></div>
+        <div class="services-list__wrapper">
+          <div class="list-item">
+            <div class="list-item__text">Online Shopping</div>
+            <div class="list-item__icon __servicon1"></div>
           </div>
-          <div class="ul__item">
-            <div class="ul-item__text">Quality Product</div>
-
-            <div class="ul-item__icon __servicon2"></div>
+          <div class="list-item">
+            <div class="list-item__text">Quality Product</div>
+            <div class="list-item__icon __servicon2"></div>
           </div>
-          <div class="ul__item">
-            <div class="ul-item__text">
+          <div class="list-item">
+            <div class="list-item__text">
               Domestic & International
               <br />
               Delivery
             </div>
-
-            <div class="ul-item__icon __servicon3"></div>
+            <div class="list-item__icon __servicon3"></div>
           </div>
-          <div class="ul__item">
-            <div class="ul-item__text">Well Organized</div>
-
-            <div class="ul-item__icon __servicon4"></div>
+          <div class="list-item">
+            <div class="list-item__text">Well Organized</div>
+            <div class="list-item__icon __servicon4"></div>
           </div>
         </div>
       </section>
       <!-- Section Gallery -->
-      <section class="gallery">
+      <section class="gallery" id="gallery">
         <h2 class="gallery__title">Gallery</h2>
         <p class="gallery__text">
           Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -169,7 +197,7 @@
         </form>
       </section>
       <!-- Section Blog -->
-      <section class="blog">
+      <section class="blog" id="blog">
         <h2 class="blog__title">blog</h2>
         <p class="blog__text">
           Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -213,7 +241,7 @@
         </div>
       </section>
       <!-- Section Contact -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="contact__title">contact</h2>
         <h4 class="contact__subtitle">
           For new projects, ideas, business or anything you'd like to discuss,

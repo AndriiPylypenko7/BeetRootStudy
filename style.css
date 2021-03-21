@@ -11,17 +11,16 @@
 }
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0 10px 35px whitesmoke;
   width: 100%;
-  height: 200px;
+  flex-wrap: wrap;
 }
 .header__link {
   transition: 1s;
   transform: scale(0.4);
   border-radius: 50%;
-  padding: 20px;
   box-shadow: 0 0 80px white;
   background: radial-gradient(black, black, white);
 }
@@ -33,9 +32,7 @@
   font-family: "Caveat", sans-serif;
   font-size: 75px;
   font-weight: 900;
-  text-align: end;
   letter-spacing: 2px;
-  margin-right: 100px;
   text-shadow: 4px 4px 8px rgb(34, 36, 36);
 }
 .main {
