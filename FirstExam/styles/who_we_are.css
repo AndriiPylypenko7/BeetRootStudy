@@ -4,6 +4,7 @@
   height: 90vh;
   background-image: url(../img/whowe_backround.png);
   background-size: cover;
+  background-position: center;
   padding: 30px;
 }
 .who__wrapper {
@@ -58,7 +59,9 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .who {height: auto;}
+  .who {
+    height: auto;
+  }
   .who__left-section {
     text-align: center;
   }
@@ -68,10 +71,12 @@
   .who__wrapper {
     justify-content: center;
   }
-  .who_right-section {margin-top: 20px;
+  .who_right-section {
+    margin-top: 20px;
     align-items: center;
   }
   .second-tile {
     align-self: center;
     margin-top: 20px;
+  }
 }

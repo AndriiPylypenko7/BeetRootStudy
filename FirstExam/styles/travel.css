@@ -12,6 +12,7 @@
   flex-basis: 700px;
   background-image: url(../img/spain1-backround.png);
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -42,6 +43,7 @@
   flex-basis: 700px;
   background-image: url(../img/spain2-backround.png);
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
