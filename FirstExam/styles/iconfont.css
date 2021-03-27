@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot?veb66j");
+  src: url("../fonts/iconfont.eot?veb66j#iefix") format("embedded-opentype"),
+    url("../fonts/iconfont.ttf?veb66j") format("truetype"),
+    url("../fonts/iconfont.woff?veb66j") format("woff"),
+    url("../fonts/iconfont.svg?veb66j#iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="__servicon"]::before,
+[class*=" __servicon"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "iconfont" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.__serviconuniE900:before {
+  content: "\e900";
+}
+.__servicon1:before {
+  content: "\e901";
+}
+.__servicon2:before {
+  content: "\e902";
+}
