@@ -14,7 +14,8 @@
 .main {
   background-image: url(../img/hero-bg.jpg@1X.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,6 +44,11 @@
   font-size: 15px;
   text-align: center;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .main {
+    padding: 10%;
+  }
 }
 /*About us section*/
 .aboutus {
@@ -161,7 +167,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .gallery__item {
   height: 237px;
@@ -172,10 +178,12 @@
   font-size: 56px;
   text-transform: uppercase;
   padding: 15px;
+  flex-grow: 1;
+  background-size: cover;
+  flex-basis: 400px;
 }
 .item__1 {
   background-image: url(../img/gallery1.png);
-  flex-basis: 543px;
 }
 .item__2 {
   background-image: url(../img/gallery2.png);
@@ -183,11 +191,9 @@
 }
 .item__3 {
   background-image: url(../img/gallery3.png);
-  flex-basis: 543px;
 }
 .item__4 {
   background-image: url(../img/gallery4.png);
-  flex-basis: 543px;
 }
 .item__5 {
   background-image: url(../img/gallery5.png);
@@ -195,7 +201,6 @@
 }
 .item__6 {
   background-image: url(../img/gallery6.png);
-  flex-basis: 543px;
 }
 @media screen and (max-width: 767px) {
   .gallery__item {
@@ -254,6 +259,7 @@
   color: #3c3c3c;
 }
 .footer__wrapper {
+  padding: 5%;
   max-width: 500px;
   margin: 0 auto;
   display: flex;

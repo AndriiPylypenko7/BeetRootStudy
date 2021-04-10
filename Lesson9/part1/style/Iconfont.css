@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "servicesicon";
+  src: url("../fonts/servicesicon.eot?lw6fqc");
+  src: url("../fonts/servicesicon.eot?lw6fqc#iefix") format("embedded-opentype"),
+    url("../fonts/servicesicon.ttf?lw6fqc") format("truetype"),
+    url("../fonts/servicesicon.woff?lw6fqc") format("woff"),
+    url("../fonts/servicesicon.svg?lw6fqc#servicesicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="__servicon"]::before,
+[class*=" __servicon"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "servicesicon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.__servicon1:before {
+  content: "\e900";
+}
+.__servicon2:before {
+  content: "\e901";
+}
+.__servicon3:before {
+  content: "\e902";
+}
+.__servicon4:before {
+  content: "\e903";
+}
