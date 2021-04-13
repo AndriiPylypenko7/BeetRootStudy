@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task9</title>
+  </head>
+  <body>
+    <h1>Задание 9</h1>
+    <h3>
+      Задать пользователю 3 вопроса, в каждом вопросе по 3 варианта ответа. За
+      каждый правильный ответ начисляется 2 балла. После вопросов выведите
+      пользователю количество набранных баллов.
+    </h3>
+    <fieldset>
+      <h2>Выберите правильный вариант ответа:</h2>
+      <h4>Что такое "Википедия"?</h4>
+      <select id="first">
+        <option value="3" disabled selected>Выберите вариант ответа</option>
+        <option value="0">Сайт</option>
+        <option value="1">Марка авто</option>
+        <option value="2">Блюдо</option>
+      </select>
+      <br />
+      <h4>Растение, которое знает практически всё</h4>
+      <select id="second">
+        <option value="3" disabled selected>Выберите вариант ответа</option>
+        <option value="0">Морковь</option>
+        <option value="1">Хрен</option>
+        <option value="2">Огурец</option>
+      </select>
+      <br />
+      <h4>Сколько программистов нужно, чтобы вкрутить лампочку?</h4>
+      <select id="third">
+        <option value="3" disabled selected>Выберите вариант ответа</option>
+        <option value="0">Один</option>
+        <option value="1">Четыре</option>
+        <option value="2">
+          Ни одного. Это аппаратная проблема, а программисты их не решают
+        </option>
+      </select>
+      <br />
+      <br />
+      <button class="button">Go</button>
+      <hr />
+      <h2 class="result"></h2>
+    </fieldset>
+    <br />
+    <a href="../index.html">На главную</a>
+    <script src="./task9.js"></script>
+  </body>
+</html>
