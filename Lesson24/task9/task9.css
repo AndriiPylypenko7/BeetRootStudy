@@ -1,0 +1,15 @@
+h2 {
+  font-size: 15px;
+  font-family: monospace;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last: justify;
+  border: solid 1px black;
+}
+h2:nth-child(even) {
+  background-color: rgb(156, 177, 122);
+}
+h2:nth-child(odd) {
+  background-color: bisque;
+}
