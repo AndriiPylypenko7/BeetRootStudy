@@ -3,8 +3,7 @@ let out = document.querySelector(".result");
 
 function numCheck(x) {
   if (isNaN(x)) {
-    confirm("Введите число!!!");
-    return "a";
+    alert("Введите число!!!");
   } else {
     return Number(x);
   }
@@ -14,7 +13,7 @@ button.addEventListener("click", function devs() {
   do {
     let num1 = numCheck(prompt("Введите первое число"));
     let num2 = numCheck(prompt("Введите второе число"));
-    if (num1 == "a" || num2 == "a") return;
+    if (!num1 || !num2) return;
     let action = prompt("Выберите знак - + / *");
     switch (action) {
       case "+":
