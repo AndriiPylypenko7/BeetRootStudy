@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Задание 3</h1>
+    <h3>
+      Создать объект, описывающий время (часы, минуты, секунды), и следующие
+      функции для работы с этим объектом:
+      <ul>
+        <li>Функция вывода времени на экран;</li>
+        <li>Функция изменения времени на переданное количество секунд;</li>
+        <li>Функция изменения времени на переданное количество минут;</li>
+        <li>Функция изменения времени на переданное количество часов.</li>
+      </ul>
+      Учтите, что в последних 3-х функциях, при изменении одной части времени,
+      может измениться и другая. Например, если ко времени «20:30:45» добавить
+      30 секунд, то должно получиться «20:31:15», а не «20:30:75».
+    </h3>
+    <fieldset>
+      <h2>Введите время</h2>
+      <input class="hours" type="number" min="0" placeholder="HH" />
+      <input class="minutes" type="number" min="0" max="59" placeholder="MM" />
+      <input class="seconds" type="number" min="0" max="59" placeholder="SS" />
+      <br /><br />
+      <select class="select">
+        <option value="def" selected hidden>Выберите действие</option>
+        <option value="show">Вывести время</option>
+        <option value="addHH">Изменить часы</option>
+        <option value="addMM">Изменить минуты</option>
+        <option value="addSS">Изменить секунды</option></select
+      ><br />
+      <h2>
+        Введите значение, на которое хотите изменить время и нажмите "Запустить"
+      </h2>
+      <input type="number" class="change" placeholder="Введите значение " />
+      <br /><br />
+      <button class="button">Запустить</button>
+      <hr />
+      <h2 class="result"></h2>
+    </fieldset>
+    <br />
+    <a href="../index.html">На главную</a>
+    <script src="./task3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Задание 1</h1>
+    <h3>
+      Создать объект, описывающий автомобиль (производитель, модель, год
+      выпуска, средняя скорость), и следующие функции для работы с этим
+      объектом:
+      <ul>
+        <li>Функция для вывода на экран информации об автомобиле;</li>
+        <li>
+          Функция для подсчета необходимого времени для преодоления переданного
+          расстояния со средней скоростью. Учтите, что через каждые 4 часа
+          дороги водителю необходимо делать перерыв на 1 час.
+        </li>
+      </ul>
+    </h3>
+    <fieldset>
+      <h2>Введите данные автомобиля</h2>
+      <input class="prod" type="text" /> <span> - Марка автомобиля</span
+      ><br /><br />
+      <input class="model" type="text" /><span> - Модель автомобиля</span
+      ><br /><br />
+      <input class="year" type="number" min="0" /><span> - Год выпуска</span
+      ><br /><br />
+      <input class="avgspeed" type="number" min="0" /><span>
+        - Средняя скорость</span
+      ><br /><br />
+      <button class="button1">Вывести информацию</button>
+      <hr />
+      <h2 class="result1"></h2>
+    </fieldset>
+    <fieldset>
+      <h2>Введите расстояние, которое хотите проехать</h2>
+      <input class="distance" type="number" min="0" /><span> КМ</span>
+      <br /><br />
+      <button class="button2">Расчитать время пути</button>
+      <hr />
+      <h2 class="result2"></h2>
+    </fieldset>
+    <br />
+    <a href="../index.html">На главную</a>
+    <script src="./task1.js"></script>
+  </body>
+</html>

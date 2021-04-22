@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Задание 2</h1>
+    <h3>
+      Создать объект, хранящий в себе отдельно числитель и знаменатель дроби, и
+      следующие функции для работы с этим объектом:
+      <ul>
+        <li>Функция сложения 2-х объектов-дробей;</li>
+        <li>Функция вычитания 2-х объектов-дробей;</li>
+        <li>Функция умножения 2-х объектов-дробей;</li>
+        <li>Функция деления 2-х объектов-дробей;</li>
+        <li>Функция сокращения объекта-дроби.</li>
+      </ul>
+    </h3>
+    <fieldset>
+      <h2>Заполните необходимые поля:</h2>
+      <div>
+        Первая дробь -
+        <input
+          class="input1-1"
+          type="number"
+          placeholder="Введите число"
+          min="0"
+        /><span> / </span
+        ><input
+          class="input1-2"
+          type="number"
+          placeholder="Введите число"
+          min="0"
+        />
+      </div>
+      <br />
+      <div>
+        Вторая дробь -
+        <input
+          class="input2-1"
+          type="number"
+          placeholder="Введите число"
+          min="0"
+        /><span> / </span
+        ><input
+          class="input2-2"
+          type="number"
+          placeholder="Введите число"
+          min="0"
+        />
+      </div>
+      <h2>Выберите нужное действие и нажмите "Запустить"</h2>
+
+      <select class="select">
+        <option value="def" selected hidden>Выберите действие</option>
+        <option value="plus">Сложение дробей</option>
+        <option value="minus">Вычитание дробей</option>
+        <option value="multi">Умножение дробей</option>
+        <option value="division">Деление дробей</option>
+      </select>
+      <button class="button">Запустить</button>
+      <hr />
+      <h2 class="result"></h2>
+    </fieldset>
+    <fieldset>
+      <h2>Функция сокращения дроби:</h2>
+      <div>
+        Дробь -
+        <input
+          class="input3-1"
+          type="number"
+          placeholder="Введите число"
+          min="0"
+        /><span> / </span
+        ><input
+          class="input3-2"
+          type="number"
+          placeholder="Введите число"
+          min="0"
+        />
+      </div>
+      <br />
+      </select>
+      <button class="reduction">Сократить дробь</button>
+      <hr />
+      <h2 class="result2"></h2>
+    </fieldset>
+    <br />
+    <a href="../index.html">На главную</a>
+    <script src="./task2.js"></script>
+  </body>
+</html>
