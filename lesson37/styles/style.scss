@@ -1,0 +1,182 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: blanchedalmond;
+   font-size: 60px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 50px;
+}
+.title {
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+      sans-serif;
+   font-size: 80px;
+}
+.cards__wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   width: 86%;
+   margin: 100px auto;
+   .card__wrapper {
+      width: 160px;
+      height: 250px;
+      margin: 10px;
+      border-radius: 10px;
+   }
+   .card {
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.6s linear, background-image 0s linear 0.3s;
+      transform: rotateY(180deg);
+      background-image: url(../img/red_back.png);
+   }
+   .card__wrapper:hover .c6 {
+      transform: rotateY(0);
+      background-image: url(../img/6C.png);
+   }
+   .card__wrapper:hover .c7 {
+      transform: rotateY(0);
+      background-image: url(../img/7C.png);
+   }
+   .card__wrapper:hover .c8 {
+      transform: rotateY(0);
+      background-image: url(../img/8C.png);
+   }
+   .card__wrapper:hover .c9 {
+      transform: rotateY(0);
+      background-image: url(../img/9C.png);
+   }
+   .card__wrapper:hover .c10 {
+      transform: rotateY(0);
+      background-image: url(../img/10C.png);
+   }
+   .card__wrapper:hover .cj {
+      transform: rotateY(0);
+      background-image: url(../img/JC.png);
+   }
+   .card__wrapper:hover .cq {
+      transform: rotateY(0);
+      background-image: url(../img/QC.png);
+   }
+   .card__wrapper:hover .ck {
+      transform: rotateY(0);
+      background-image: url(../img/KC.png);
+   }
+   .card__wrapper:hover .ca {
+      transform: rotateY(0);
+      background-image: url(../img/AC.png);
+   }
+   .card__wrapper:hover .d6 {
+      transform: rotateY(0);
+      background-image: url(../img/6D.png);
+   }
+   .card__wrapper:hover .d7 {
+      transform: rotateY(0);
+      background-image: url(../img/7D.png);
+   }
+   .card__wrapper:hover .d8 {
+      transform: rotateY(0);
+      background-image: url(../img/8D.png);
+   }
+   .card__wrapper:hover .d9 {
+      transform: rotateY(0);
+      background-image: url(../img/9D.png);
+   }
+   .card__wrapper:hover .d10 {
+      transform: rotateY(0);
+      background-image: url(../img/10D.png);
+   }
+   .card__wrapper:hover .dj {
+      transform: rotateY(0);
+      background-image: url(../img/JD.png);
+   }
+   .card__wrapper:hover .dq {
+      transform: rotateY(0);
+      background-image: url(../img/QD.png);
+   }
+   .card__wrapper:hover .dk {
+      transform: rotateY(0);
+      background-image: url(../img/KD.png);
+   }
+   .card__wrapper:hover .da {
+      transform: rotateY(0);
+      background-image: url(../img/ADd.png);
+   }
+   .card__wrapper:hover .s6 {
+      transform: rotateY(0);
+      background-image: url(../img/6S.png);
+   }
+   .card__wrapper:hover .s7 {
+      transform: rotateY(0);
+      background-image: url(../img/7S.png);
+   }
+   .card__wrapper:hover .s8 {
+      transform: rotateY(0);
+      background-image: url(../img/8S.png);
+   }
+   .card__wrapper:hover .s9 {
+      transform: rotateY(0);
+      background-image: url(../img/9S.png);
+   }
+   .card__wrapper:hover .s10 {
+      transform: rotateY(0);
+      background-image: url(../img/10S.png);
+   }
+   .card__wrapper:hover .sj {
+      transform: rotateY(0);
+      background-image: url(../img/JS.png);
+   }
+   .card__wrapper:hover .sq {
+      transform: rotateY(0);
+      background-image: url(../img/QS.png);
+   }
+   .card__wrapper:hover .sk {
+      transform: rotateY(0);
+      background-image: url(../img/KS.png);
+   }
+   .card__wrapper:hover .sa {
+      transform: rotateY(0);
+      background-image: url(../img/AS.png);
+   }
+   .card__wrapper:hover .h6 {
+      transform: rotateY(0);
+      background-image: url(../img/6H.png);
+   }
+   .card__wrapper:hover .h7 {
+      transform: rotateY(0);
+      background-image: url(../img/7H.png);
+   }
+   .card__wrapper:hover .h8 {
+      transform: rotateY(0);
+      background-image: url(../img/8H.png);
+   }
+   .card__wrapper:hover .h9 {
+      transform: rotateY(0);
+      background-image: url(../img/9H.png);
+   }
+   .card__wrapper:hover .h10 {
+      transform: rotateY(0);
+      background-image: url(../img/10H.png);
+   }
+   .card__wrapper:hover .hj {
+      transform: rotateY(0);
+      background-image: url(../img/JH.png);
+   }
+   .card__wrapper:hover .hq {
+      transform: rotateY(0);
+      background-image: url(../img/QH.png);
+   }
+   .card__wrapper:hover .hk {
+      transform: rotateY(0);
+      background-image: url(../img/KH.png);
+   }
+   .card__wrapper:hover .ha {
+      transform: rotateY(0);
+      background-image: url(../img/AH.png);
+   }
+}
